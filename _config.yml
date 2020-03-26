@@ -8,12 +8,12 @@ subtitle: ''
 description: ''
 keywords:
 author: 雾山
-language: cn
+language: en
 timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://www.v2ex.tech
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -102,3 +102,16 @@ deploy:
   repo:
     github: https://github.com/beer-on-ice/beer-on-ice.github.io.git
   branch: master
+
+# 文章字数统计
+symbols_count_time:
+  symbols: true
+  time: true
+  total_symbols: true
+  total_time: true
+
+# sitemap
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
